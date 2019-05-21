@@ -20,6 +20,8 @@ module.exports = {
   ],
   theme: '@vuepress/default',
   themeConfig: {
+    editLinkText: 'GitHub でこのページを編集',
+    editLinks: true,
     nav: [
       {
         link: '/about/',
