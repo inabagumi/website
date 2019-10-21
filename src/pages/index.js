@@ -10,7 +10,6 @@ import products from '../data/products'
 const Home = () => {
   const context = useDocusaurusContext()
   const introductionUrl = useBaseUrl('docs/introduction')
-  const 
 
   const { siteConfig = {} } = context
 
