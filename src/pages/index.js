@@ -9,6 +9,9 @@ import products from '../data/products'
 
 const Home = () => {
   const context = useDocusaurusContext()
+  const introductionUrl = useBaseUrl('docs/introduction')
+  const 
+
   const { siteConfig = {} } = context
 
   return (
@@ -23,7 +26,7 @@ const Home = () => {
           <div>
             <Link
               className="button button--primary button--outline button--lg"
-              to={useBaseUrl('docs/introduction')}
+              to={introductionUrl}
             >
               Get Started
             </Link>
@@ -59,7 +62,7 @@ const Home = () => {
                           <Link
                             className="button button--block button--secondary button--small"
                             role="button"
-                            to={useBaseUrl(product.learnMore)}
+                            to={product.learnMore}
                           >
                             もっと詳しく
                           </Link>
