@@ -4,7 +4,7 @@ import Image from '@theme/IdealImage'
 import Layout from '@theme/Layout'
 import Link from '@docusaurus/Link'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
-import withBaseUrl from '@docusaurus/withBaseUrl'
+import useBaseUrl from '@docusaurus/useBaseUrl'
 import products from '../data/products'
 
 const Home = () => {
@@ -23,7 +23,7 @@ const Home = () => {
           <div>
             <Link
               className="button button--primary button--outline button--lg"
-              to={withBaseUrl('docs/introduction')}
+              to={useBaseUrl('docs/introduction')}
             >
               Get Started
             </Link>
@@ -59,7 +59,7 @@ const Home = () => {
                           <Link
                             className="button button--block button--secondary button--small"
                             role="button"
-                            to={withBaseUrl(product.learnMore)}
+                            to={useBaseUrl(product.learnMore)}
                           >
                             もっと詳しく
                           </Link>
