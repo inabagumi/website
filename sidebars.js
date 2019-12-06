@@ -1,4 +1,5 @@
 module.exports = {
+  /*
   docs: {
     'Haneru Developers': ['introduction'],
     プロダクト: [
@@ -9,4 +10,5 @@ module.exports = {
     ],
     'npm パッケージ': ['eslint-config', 'prettier-config', 'renovate-config']
   }
+  */
 }
