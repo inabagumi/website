@@ -23,15 +23,6 @@ module.exports = {
       copyright: 'Copyright © 2019 Haneru Developers.',
       links: [
         {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Introduction',
-              to: 'docs/introduction'
-            }
-          ]
-        },
-        {
           title: 'ねるねるアプリ',
           items: [
             {
