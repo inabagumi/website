@@ -32,7 +32,7 @@ module.exports = {
           ]
         },
         {
-          title: 'プロダクト',
+          title: 'ねるねるアプリ',
           items: [
             {
               label: 'ねるカメラ',
@@ -47,16 +47,21 @@ module.exports = {
               to: 'docs/hanerubeat'
             },
             {
+              label: '因幡神社',
+              to: 'docs/inaba-jinja'
+            }
+          ]
+        },
+        {
+          title: 'プロダクト',
+          items: [
+            {
               label: 'SHINJU DATE',
               to: 'docs/shinju-date'
             },
             {
               label: '21g',
               to: 'docs/21g'
-            },
-            {
-              label: '因幡神社',
-              to: 'docs/inaba-jinja'
             }
           ]
         },
@@ -82,10 +87,15 @@ module.exports = {
     image: 'img/haneru-dev.jpg',
     navbar: {
       links: [
-        { to: 'docs/introduction', label: 'Docs', position: 'left' },
+        { to: 'docs/introduction', label: 'ドキュメント', position: 'left' },
         {
           href: 'https://github.com/inabagumi',
           label: 'GitHub',
+          position: 'right'
+        },
+        {
+          href: 'https://discord.gg/d9V3PSj',
+          label: 'Discord',
           position: 'right'
         }
       ],
