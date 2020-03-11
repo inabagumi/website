@@ -80,7 +80,7 @@ module.exports = {
       hideOnScroll: true,
       links: [
         {
-          activeBasePath: true,
+          activeBasePath: 'docs',
           to: 'docs/introduction',
           label: 'ドキュメント',
           position: 'left'
