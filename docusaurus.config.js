@@ -5,7 +5,7 @@ module.exports = {
   plugins: ['@docusaurus/plugin-ideal-image'],
   presets: [
     [
-      '@docusaurus/preset-classic',
+      require.resolve('@docusaurus/preset-classic'),
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js')
