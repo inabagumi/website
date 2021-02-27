@@ -4,12 +4,11 @@ module.exports = {
   i18n: {
     defaultLocale: 'ja',
     locales: ['ja'],
-    localeConfigs: [
-      {
-        direction: 'ltr',
+    localeConfigs: {
+      ja: {
         label: '日本語'
       }
-    ]
+    }
   },
   organizationName: 'inabagumi',
   plugins: [require.resolve('@docusaurus/plugin-ideal-image')],
