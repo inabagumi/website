@@ -1,6 +1,6 @@
 /**
-  * @type {import('@docusaurus/types').DocusaurusConfig}
-  */
+ * @type {import('@docusaurus/types').DocusaurusConfig}
+ */
 module.exports = {
   baseUrl: '/',
   favicon: 'img/favicon.png',
