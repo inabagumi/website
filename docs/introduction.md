@@ -1,8 +1,8 @@
 ---
+id: introduction
 slug: /
+title: Haneru Developers とは?
 ---
-
-# Haneru Developers とは?
 
 Haneru Developers はバーチャル YouTuber の[因幡はねるさん](https://www.youtube.com/channel/UC0Owc36U9lOyi9Gx9Ic-4qg)をテーマとしたアプリやサービスの開発を主として行うコミュニティです。因幡はねるさんのことを応援している人たちがメンバーになっています。
 
@@ -14,4 +14,6 @@ Haneru Developers によって提供されるアプリやサービスは因幡�
 
 ## お問い合わせ
 
-Haneru Developers に対してなんらかの連絡がある場合はそれぞれのアプリやサービスのリポジトリの Issue、もしくは [contact@haneru.dev](mailto:contact@haneru.dev) までご連絡ください。Haneru Developers は本業の傍らで開発をしているため、返事の保証は致しかねます。
+Haneru Developers に対してなんらかの連絡がある場合はそれぞれのアプリやサービスのリポジトリの Issue、もしくは[このウェブページのお問い合わせフォーム][contact]からご連絡ください。Haneru Developers は本業の傍らで開発をしているため、返事の保証は致しかねます。
+
+[contact]: /contact
