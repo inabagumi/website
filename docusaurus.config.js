@@ -112,5 +112,31 @@ module.exports = {
       }
     }),
   title: 'Haneru Developers',
-  url: 'https://haneru.dev'
+  url: 'https://haneru.dev',
+  webpack: {
+    jsLoader: (isServer) => ({
+      loader: 'swc-loader',
+      options: {
+        env: {
+          coreJs: 3,
+          ...(isServer
+            ? {
+                targets: {
+                  node: 14
+                }
+              }
+            : {})
+        },
+        jsc: {
+          parser: {
+            decorators: false,
+            dynamicImport: true,
+            syntax: 'typescript',
+            tsx: true
+          },
+          target: 'es2015'
+        }
+      }
+    })
+  }
 }

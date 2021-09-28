@@ -1,17 +1,5 @@
 {
   "author": "Haneru Developers",
-  "browserslist": {
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ],
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ]
-  },
   "dependencies": {
     "@docusaurus/core": "^2.0.0-beta.6",
     "@docusaurus/plugin-ideal-image": "^2.0.0-beta.6",
@@ -31,6 +19,7 @@
     "@formspree/cli": "^0.9.6",
     "@inabagumi/eslint-config-react": "^9.0.1",
     "@inabagumi/prettier-config": "^2.0.0",
+    "@swc/core": "^1.2.91",
     "@tsconfig/docusaurus": "^1.0.4",
     "@types/lodash": "^4.14.175",
     "@types/react": "^17.0.24",
@@ -38,6 +27,7 @@
     "@types/react-router-dom": "^5.3.0",
     "eslint": "^7.32.0",
     "prettier": "~2.4.1",
+    "swc-loader": "^0.1.15",
     "typescript": "~4.4.3"
   },
   "eslintConfig": {
